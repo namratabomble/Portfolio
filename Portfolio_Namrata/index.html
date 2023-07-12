@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <title>Namrata's Portfolio'</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/aecce30945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO.png" class="logo" />
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Full Stack developer
+                </p>
+                <h1>Hi,I'm <span>Namrata</span><br /></h1>
+                <br>
+                <a href='images/Namrata.Bomble.pdf'>
+                    <button class="btn btn-info">
+                        Resume
+                    </button>
+                </a>
+            </div>
+        </div>
+<div id ="about">
+    <div class ="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/LinkedIn.png" />
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    An experienced software engineer worked in the Software industry. I am skilled in 
+                    data analytics, Java, automation, and Python. I have expertise working with 
+                    technologies like Full Stack and Azure DevOps. I am currently pursuing my Masters
+                    in Computer Science at California State University. I have a keen interest in learning 
+                    and upgrading myself with technologies, focusing on the fields of full stack 
+                    development, data analytics, and artificial intelligence.
+                </p>
+                <div class="tab-titles">
+                    <p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Core Technologies: </span><br> Java, Python, C/C++, C Scala, R, TensorFlow, Keras, NumPy, Scikit-learn </li>
+                        <li><span>Web Technologies: </span><br>HTML/CSS, JavaScript, TypeScript, Angular, React, Node.js, Express.js, Spring MVC, PHP</li>
+                        <li><span>Databases and Data Tools: </span><br>SQL, MongoDB, Oracle Database, Pandas </li>
+                        <li><span>Testing and Automation: </span><br>Selenium, Postman</li>
+                        <li><span>Cloud Services:</span><br>Microsoft Azure, Docker </li>
+                        <li><span>Visualization Tools Development Tools: </span><br>Tableau, Power BI, Git, Visual Studio, Android Studio</li>
+                        <li><span>Operating Systems: </span><br>Microsoft Windows, Linux, MacOS </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Engineer - Adrosonic IT Consultancy</span><br>Jan 2021 - May 2022</li>
+                        <li><span>IT Trainer</span><br>May 2022 - Aug 2022 </li>
+                        <li><span>Web developer Internship</span><br>Dec 2018 - Jan 2019 </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Masters in Computer Science - California State University (3.5/4)</span><br>Aug 2022 - Present</li>
+                        <li><span>Bachelors in Information Technology- University of Mumbai(Xavier)</span><br>Aug 2017 - Oct 2020 </li>
+                        <li><span>Diploma in Information Technology</span><br> Aug 2014 - May 2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!---------Services(Certifications)------------>
+        <div id="certifications">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="certification-list">
+                    <div>
+                        <h2>Microsoft Azure: AI Fundamentals</h2>
+                        <a href="https://www.credly.com/badges/4e74061d-bec8-452b-9149-1f2bf781e4c6?source=linked_in_profile">See Credential</a>
+                    </div>
+                    <div>
+                        <h2>Microsoft Azure: Data Fundamentals</h2>
+                        <a href="https://www.credly.com/badges/720c9e17-b1fe-4c13-b58e-c6a7ad6e0c46?source=linked_in_profile">See Credential</a>
+                    </div>
+                    <div>
+                        <h2>Azure DevOps Boards</h2>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/S4FWPVYUUN4Q">See Credential</a>
+                    </div>
+                    <div>
+                        <h2>Microsoft MTA: Security Fundamentals</h2>
+                        <a href="https://www.credly.com/badges/365b6daf-f457-4422-91b9-7de12d879b6f?source=linked_in_profile">See Credential</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-------------------------------------Projects------------------------------------->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class= "work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class= "layer">
+                    <h3>Game Development</h3><br>
+                    <a href="https://github.com/chay235/catBingoTeam"><i class="fas fa-external-link-alt"></i></a>   
+                    <p>
+                    (Technologies used- C#, Ad sense, Unity, Azure DevOps, Azure app service)
+                    • Developed project is a Bingo game using C# for generating random numbers, determining 
+                    the winning conditions and handling user inputs, Unity for creating visually appealing scenes, 
+                    handling user interactions and render graphics.
+                    </p>
+                     </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class= "layer">
+                    <h3>Employee Recommendation System Using Machine Learning Algorithms</h3><br>
+                    <a href="https://github.com/namratabomble/Employee-Recommendation-System-Using-Machine-Learning"><i class="fas fa-external-link-alt"></i></a>
+                    <p>
+                        Developed a working prototype of Employee Recommendation Using Machine Learning 
+                        algorithms and Natural language processing. 
+                        A model which collects all the resumes, analyze the resumes based on certain 
+                        parameter set by the company, and then give the best possible 
+                        set of Employees which are eligible to join a particular company.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class= "layer">
+                    <h3>Placement analysis and Prediction using R programming</h3><br>  
+                    <a href="https://github.com/namratabomble/Placement-Analysis-Using-R-Programming"><i class="fas fa-external-link-alt"></i></a>
+                    <p>
+                        Performed Exploratory data analytics (EDA), data science, Regression and 
+                        Naïve bayes algorithm by using R programming to validate, 
+                        analyze data and visualization techniques for representation of results. </p><br>
+                   </div>
+            </div>
+
+            <div class="work">
+                <img src="images/IoT.png">
+                <div class= "layer">
+                    <h3>Smart car parking system</h3><br> 
+                    <a href="https://github.com/namratabomble/Smart-Parking-System"><i class="fas fa-external-link-alt"></i></a> 
+                    <p>
+                        IoT based smart parking system using Thingspeak cloud connectivity . The proposed Smart Parking System consists of an on-site deployment of an IoT 
+                        module that is used to monitor and signalize the state of availability of each parking space and give time updates for remote monitoring.
+                    </p>  <br>  
+                    </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work3.png">
+                <div class= "layer">
+                    <h3>Crypto Currency Forecasting & Visualization using Power BI</h3><br>  
+                    <a href="https://github.com/namratabomble/Cryptocurrency_Prediction_PowerBI"><i class="fas fa-external-link-alt"></i></a>
+                    <p>
+                        This Power BI Dashboard consist of different types of visualization for the crypto currency dataset which contains multiple columns like maximum, minimum value considering 
+                        the name and year which helps to analyze the data, predict/forecast the price range of the particular cryptocurrency.    
+                    </p><br>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--------------------contact me----------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fas fa-paper-plane" ></i>namratabomble19@gmail.com</p>
+                <!--  <p><i class="fas fa-phone-square-alt"></i> </p> -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/namrata-bomble/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/namrata_bomble/"><i class="fab fa-instagram"></i></a><br>
+                </div>
+                <br>
+                <!--here-->
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your name" required>
+                    <input type="email" name = "email" placeholder=" Your Email" required>
+                    <textarea name = "Message" rows = "6"  placeholder="Your message"></textarea>
+                    <button type = "submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Namrata</p>
+    </div>
+</div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+             var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-300";
+            }
+        </script>
+
+        
+</body>
+</html>
